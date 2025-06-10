@@ -69,13 +69,13 @@ export default function Footer() {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-gray-500 sm:text-center">
-                        © 2025 
-                        <a href="https://manipallapothu.dev/" className="hover:underline">
-                            Pallapothu Manikanta
-                        </a>
-                        . All Rights Reserved.
-                    </span>
+                    <p class="text-sm text-center text-gray-600">
+                    © Copyright 2025, All Rights Reserved by&nbsp;
+                    <a href="https://manipallapothu.dev" class="font-bold text-gray-800 hover:underline" target="_blank" rel="noopener noreferrer">
+                        Mani Pallapothu
+                    </a>
+                    </p>
+
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
